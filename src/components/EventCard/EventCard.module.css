@@ -1,0 +1,41 @@
+.eventCard {
+  color: #fff;
+  padding: 12px 16px;
+  background: #161616;
+  margin: 24px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.leftData {
+  display: flex;
+}
+.cardCol {
+  display: flex;
+  flex-direction: column;
+}
+.shortNameCol {
+  composes: cardCol;
+  width: 200px;
+}
+.nameCol {
+  composes: cardCol;
+  margin-left: 24px;
+}
+.shortName {
+  font-size: 20px;
+  font-weight: 700;
+}
+.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.live {
+  color: green;
+}
+.ended {
+  color: red;
+  
+}
